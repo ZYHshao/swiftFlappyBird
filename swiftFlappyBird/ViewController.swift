@@ -295,10 +295,10 @@ class ViewController: UIViewController {
         var view6=self.view.viewWithTag(306)
         view1!.frame=CGRectMake(SCREEN_SIZE.width, -SCREEN_SIZE.height, 54, SCREEN_SIZE.height)
         view2!.frame=CGRectMake(SCREEN_SIZE.width, -SCREEN_SIZE.height, 54, SCREEN_SIZE.height)
-        view3!.frame=CGRectMake(SCREEN_SIZE.width, -SCREEN_SIZE.height, 54, SCREEN_SIZE.height)
-        view4!.frame=CGRectMake(SCREEN_SIZE.width, -SCREEN_SIZE.height, 54, SCREEN_SIZE.height)
-        view5!.frame=CGRectMake(SCREEN_SIZE.width, -SCREEN_SIZE.height, 54, SCREEN_SIZE.height)
-        view6!.frame=CGRectMake(SCREEN_SIZE.width, -SCREEN_SIZE.height, 54, SCREEN_SIZE.height)
+        view3!.frame=CGRectMake(SCREEN_SIZE.width+200, -SCREEN_SIZE.height, 54, SCREEN_SIZE.height)
+        view4!.frame=CGRectMake(SCREEN_SIZE.width+200, -SCREEN_SIZE.height, 54, SCREEN_SIZE.height)
+        view5!.frame=CGRectMake(SCREEN_SIZE.width+400, -SCREEN_SIZE.height, 54, SCREEN_SIZE.height)
+        view6!.frame=CGRectMake(SCREEN_SIZE.width+400, -SCREEN_SIZE.height, 54, SCREEN_SIZE.height)
         bird?.frame=CGRectMake(50, 200, 35, 35)
         timer!.fireDate=NSDate.distantPast() as NSDate
         timer2!.fireDate=NSDate.distantPast() as NSDate
